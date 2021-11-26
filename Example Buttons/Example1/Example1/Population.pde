@@ -10,8 +10,8 @@ void population()
   buttonHeight2= buttonHeight1;
   rectDisplayX= displayWidth * 1/8;
   rectDisplayY= displayHeight *1/8;
-  rectDisplayWidth= buttonWidth;
-  rectDisplayHeight= buttonHeight;
+  rectDisplayWidth= buttonWidth1;
+  rectDisplayHeight= buttonHeight1;
   circleX= displayWidth * 6/8;
   circleY= rectDisplayY;
   circleWitdh= displayWidth * 1/8;
