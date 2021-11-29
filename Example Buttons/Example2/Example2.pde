@@ -14,7 +14,7 @@ void setup()
 
 void draw()
 {
-  background(purple);
+  background(gray);
   rect(buttonX1, buttonY1, buttonWidth1, buttonHeight1);
   textDraw1(); //Click Me
   rect(buttonX2, buttonY2, buttonWidth2, buttonHeight2);
@@ -29,7 +29,14 @@ void mousePressed()
   rect=false;
   circle=false;
   if (mouseX>buttonX1 && mouseX<buttonX1+buttonWidth1 && mouseY>buttonY1 && mouseY<buttonY1+buttonHeight1) rect=true;
-  if (mouseX>buttonX2  && mouseX<buttonX2+buttonWidth2 && mouseY>buttonY2 && mouseY<buttonY2+buttonHeight2) circle=true;
+  { if (rect==true) {
+    rect=true;
+    circle=false;
+  } else {
+    rect=false;
+    circle=true;
+  }
+  }
 }//End mousePressed()
 
 void keyPressed()

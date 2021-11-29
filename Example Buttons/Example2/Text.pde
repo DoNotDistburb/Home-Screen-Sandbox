@@ -1,7 +1,7 @@
 String buttonText1 = "Click Me";
 String buttonText2 = "Or Me!";
 PFont buttonFont;
-color purple=#2C08FF, white=#FFFFFF; //Not nice for Night Mode
+color purple=#2C08FF, white=#FFFFFF, black=#000000, gray=#4B4B4B; //Not nice for Night Mode
 //
 void textSetup()
 {
