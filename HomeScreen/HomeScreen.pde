@@ -1,7 +1,7 @@
 //3x3 Home Screen
 
 //Global Variables
-color blue=#0372FF, white=#FFFFFF;
+color black=#000000, white=#FFFFFF;
 float circleDiameter, rectWidth, rectHeight;
 float ptX1, ptX2, ptX3, ptX4, ptX5, ptX6, ptX7, ptX8, ptX9, ptX10;
 float ptX11, ptX12, ptX13, ptX14, ptX15, ptX16;
@@ -17,39 +17,8 @@ void setup()
 
 void draw()
 {
+  Pic();
   
-  //
-  rect(ptX1, ptY1, rectWidth, rectHeight);
-  rect(ptX2, ptY2, rectWidth, rectHeight);
-  rect(ptX3, ptY3, rectWidth, rectHeight);
-  rect(ptX4, ptY4, rectWidth, rectHeight);
-  rect(ptX5, ptY5, rectWidth, rectHeight);
-  rect(ptX6, ptY6, rectWidth, rectHeight);
-  rect(ptX7, ptY7, rectWidth, rectHeight);
-  rect(ptX8, ptY8, rectWidth, rectHeight);
-  rect(ptX9, ptY9, rectWidth, rectHeight);
-  rect(ptX10, ptY10, rectWidth, rectHeight);
-  rect(ptX11, ptY11, rectWidth, rectHeight);
-  //
-  fill(blue);
-  ellipse(ptX1, ptY1, circleDiameter, circleDiameter);
-  ellipse(ptX2, ptY2, circleDiameter, circleDiameter);
-  ellipse(ptX3, ptY3, circleDiameter, circleDiameter);
-  ellipse(ptX4, ptY4, circleDiameter, circleDiameter);
-  ellipse(ptX5, ptY5, circleDiameter, circleDiameter);
-  ellipse(ptX6, ptY6, circleDiameter, circleDiameter);
-  ellipse(ptX7, ptY7, circleDiameter, circleDiameter);
-  ellipse(ptX8, ptY8, circleDiameter, circleDiameter);
-  ellipse(ptX9, ptY9, circleDiameter, circleDiameter);
-  ellipse(ptX10, ptY10, circleDiameter, circleDiameter);
-  ellipse(ptX11, ptY11, circleDiameter, circleDiameter);
-  ellipse(ptX12, ptY12, circleDiameter, circleDiameter);
-  ellipse(ptX13, ptY13, circleDiameter, circleDiameter);
-  ellipse(ptX14, ptY14, circleDiameter, circleDiameter);
-  ellipse(ptX15, ptY15, circleDiameter, circleDiameter);
-  ellipse(ptX16, ptY16, circleDiameter, circleDiameter);
-  fill(white);
-  //
 }//End draw()
 
 void mousePressed()

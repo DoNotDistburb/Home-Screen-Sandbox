@@ -11,5 +11,35 @@ void population()
   rectWidth = displayWidth*1/3;
   rectHeight = displayHeight*1/3;
   circleDiameter = displayWidth*1/50;
+  rect(ptX1, ptY1, rectWidth, rectHeight);
+  rect(ptX2, ptY2, rectWidth, rectHeight);
+  rect(ptX3, ptY3, rectWidth, rectHeight);
+  rect(ptX4, ptY4, rectWidth, rectHeight);
+  rect(ptX5, ptY5, rectWidth, rectHeight);
+  rect(ptX6, ptY6, rectWidth, rectHeight);
+  rect(ptX7, ptY7, rectWidth, rectHeight);
+  rect(ptX8, ptY8, rectWidth, rectHeight);
+  rect(ptX9, ptY9, rectWidth, rectHeight);
+  rect(ptX10, ptY10, rectWidth, rectHeight);
+  rect(ptX11, ptY11, rectWidth, rectHeight);
+  //
+  fill(black);
+  ellipse(ptX1, ptY1, circleDiameter, circleDiameter);
+  ellipse(ptX2, ptY2, circleDiameter, circleDiameter);
+  ellipse(ptX3, ptY3, circleDiameter, circleDiameter);
+  ellipse(ptX4, ptY4, circleDiameter, circleDiameter);
+  ellipse(ptX5, ptY5, circleDiameter, circleDiameter);
+  ellipse(ptX6, ptY6, circleDiameter, circleDiameter);
+  ellipse(ptX7, ptY7, circleDiameter, circleDiameter);
+  ellipse(ptX8, ptY8, circleDiameter, circleDiameter);
+  ellipse(ptX9, ptY9, circleDiameter, circleDiameter);
+  ellipse(ptX10, ptY10, circleDiameter, circleDiameter);
+  ellipse(ptX11, ptY11, circleDiameter, circleDiameter);
+  ellipse(ptX12, ptY12, circleDiameter, circleDiameter);
+  ellipse(ptX13, ptY13, circleDiameter, circleDiameter);
+  ellipse(ptX14, ptY14, circleDiameter, circleDiameter);
+  ellipse(ptX15, ptY15, circleDiameter, circleDiameter);
+  ellipse(ptX16, ptY16, circleDiameter, circleDiameter);
+  fill(white);
   //
 }//End setup()

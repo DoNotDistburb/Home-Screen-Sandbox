@@ -1,0 +1,4 @@
+void Pic()
+{
+  
+}//End draw(
