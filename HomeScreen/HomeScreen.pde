@@ -17,17 +17,18 @@ Boolean rect=false, circle=false;
 void setup()
 {
   titleFont = createFont ("LeelawadeeUI-Bold-48",75);
-  pic1=loadImage("2014ForestHillsDrive.jpg");
-  pic2=loadImage("Astroworld_by_Travis_Scott.jpg");
-  pic3=loadImage("Blonde_-_Frank_Ocean.jpeg");
-  pic4=loadImage("Drake_-_Nothing_Was_the_Same_cover.png");
-  pic6=loadImage("The_life_of_pablo_alternate.jpg");
-  pic7=loadImage("The_Weeknd_-_After_Hours.png");
-  pic8=loadImage("Trapsoulalbum.jpeg");
-  pic9=loadImage("YoungBoy_Never_Broke_Again_-_AI_YoungBoy_2.png");
+  
+  pic1=loadImage("../2014ForestHillsDrive.jpg");
+  pic2=loadImage("../Astroworld_by_Travis_Scott.jpg");
+  pic3=loadImage("../Blonde_-_Frank_Ocean.jpeg");
+  pic4=loadImage("../Drake_-_Nothing_Was_the_Same_cover.png");
+  pic6=loadImage("../The_life_of_pablo_alternate.jpg");
+  pic7=loadImage("../The_Weeknd_-_After_Hours.png");
+  pic8=loadImage("../Trapsoulalbum.jpeg");
+  pic9=loadImage("../YoungBoy_Never_Broke_Again_-_AI_YoungBoy_2.png");
 
 //
-  fullScreen();
+fullScreen();
   //
   //Population
   ptX1 = displayWidth*0;
