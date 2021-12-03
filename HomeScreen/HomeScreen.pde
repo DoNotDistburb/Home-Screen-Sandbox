@@ -16,7 +16,7 @@ Boolean rect=false, circle=false;
 //
 void setup()
 {
-  titleFont = createFont ("LeelawadeeUI-Bold-48",75);
+  titleFont = createFont ("Calibri-48",50);
   
   pic1=loadImage("../2014ForestHillsDrive.jpg");
   pic2=loadImage("../Astroworld_by_Travis_Scott.jpg");
@@ -26,40 +26,37 @@ void setup()
   pic7=loadImage("../The_Weeknd_-_After_Hours.png");
   pic8=loadImage("../Trapsoulalbum.jpeg");
   pic9=loadImage("../YoungBoy_Never_Broke_Again_-_AI_YoungBoy_2.png");
-
 //
-fullScreen();
-  //
-  //Population
-  ptX1 = displayWidth*0;
-  ptY1 = ptY2 = ptY3 =ptY10 =displayHeight*0;
-  ptX2 = displayWidth*1/3; 
-  ptX3 = displayWidth*2/3;
-  ptX10 = displayWidth*3/3;
-  //
-  ptY4 = ptY5 = ptY6 = ptY11 = displayHeight*1/3; 
-  ptX4 = displayWidth*0;
-  ptX5 = displayWidth*1/3;
-  ptX6 = displayWidth*2/3;
-  ptX11 = displayWidth*3/3;
-  //
-  ptY7 = ptY8 = ptY9 = ptY12 = displayHeight*2/3;
-  ptX7 = displayWidth*0;
-  ptX8 = displayWidth*1/3;
-  ptX9 = displayWidth*2/3;
-  ptX12 = displayWidth*3/3;
-  //
-  ptY13 = ptY14 = ptY15 = ptY16 = displayHeight*3/3;
-  ptX13 = displayWidth*0;
-  ptX14 = displayWidth*1/3;
-  ptX15 = displayWidth*2/3;
-  ptX16 = displayWidth*3/3;
-
-
-  //
-  rectWidth = displayWidth*1/3;
-  rectHeight = displayHeight*1/3;
-  circleDiameter = displayWidth*1/50;
+ fullScreen();
+//
+//Population
+ptX1 = displayWidth*0;
+ptY1 = ptY2 = ptY3 =ptY10 =displayHeight*0;
+ptX2 = displayWidth*1/3;
+ptX3 = displayWidth*2/3;
+ptX10 = displayWidth*3/3;
+//
+ptY4 = ptY5 = ptY6 = ptY11 = displayHeight*1/3; 
+ptX4 = displayWidth*0;
+ptX5 = displayWidth*1/3;
+ptX6 = displayWidth*2/3;
+ptX11 = displayWidth*3/3;
+//
+ptY7 = ptY8 = ptY9 = ptY12 = displayHeight*2/3;
+ptX7 = displayWidth*0;
+ptX8 = displayWidth*1/3;
+ptX9 = displayWidth*2/3;
+ptX12 = displayWidth*3/3;
+//
+ptY13 = ptY14 = ptY15 = ptY16 = displayHeight*3/3;
+ptX13 = displayWidth*0;
+ptX14 = displayWidth*1/3;
+ptX15 = displayWidth*2/3;
+ptX16 = displayWidth*3/3;
+//
+rectWidth = displayWidth*1/3;
+rectHeight = displayHeight*1/3;
+circleDiameter = displayWidth*1/50;
 }//End Setup
 
 void draw() 
@@ -112,20 +109,12 @@ void draw()
   ellipse(ptX15, ptY15, circleDiameter, circleDiameter);
   ellipse(ptX16, ptY16, circleDiameter, circleDiameter);
 
-  fill(white);
-  
-   if (rect==true);
+fill(white);
+
 }//End Draw
 
 void mousePressed() 
-{
- 
-    rect=false;
- 
-  if (mouseX>ptX1 && mouseX<ptX1+rectWidth&& mouseY>ptY1 && mouseY<ptY1+rectHeight ) rect = true;
-  
-  
-  
+{  
 }//End Setup
 
 void keyPressed() 
